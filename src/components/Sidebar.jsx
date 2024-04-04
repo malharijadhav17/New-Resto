@@ -114,6 +114,7 @@ const Sidebar = () => {
                           isActive ? activeLink : normalLink
                         }
                       >
+                        
                         {link.icon}
                         <span className="capitalize">{link.name}</span>
                       </NavLink>
