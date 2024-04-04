@@ -513,6 +513,16 @@ export const links = [
         path: 'userspage',
         name: 'Users',
         icon: <RiContactsLine />,
+        subLinks: [
+          {
+            path: "userdetails",
+            name: "User Details"
+          },
+          {
+            path: "userpermissions",
+            name: "User Permissions"
+          }
+        ]
       },
     ],
   },

@@ -6,6 +6,45 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+/* Responsive adjustments */
+@media screen and (max-width: 1200px) {
+  /* Adjustments for large screens */
+  .flex.flex-wrap.lg\:flex-nowrap.justify-center  {
+    
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  /* Adjustments for medium screens */
+  .flex.flex-wrap.lg\:flex-nowrap.justify-center  {
+    
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* Adjustments for small screens */
+  .flex.flex-wrap.lg\:flex-nowrap.justify-center  {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  /* Adjustments for extra small screens */
+  .flex.flex-wrap.lg\:flex-nowrap.justify-center  {
+    font-size: 10px;
+    margin-top: 5rem;
+  }
+
+  
+  .resp{
+     font-size: 10px;
+    margin-top: 5rem;
+  }
+}
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

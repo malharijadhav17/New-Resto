@@ -115,7 +115,7 @@ const Orders = () => {
 
   return (
 
-<div className="m-2 mt-20 p-2">
+<div className="m-2 p-2 Responsive">
   <div className="border-gray-400 shadow-lg rounded">
     <div className="bg-gray-700 font-bold text-white p-2 rounded-t">
       Search Relationship Partner
